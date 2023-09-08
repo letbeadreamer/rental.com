@@ -1,0 +1,133 @@
+body{
+    background-attachment:scroll;
+}
+
+h1{
+    text-align:center;
+    align-items:center;
+    padding-top:200px;
+    font-size:60px;
+}
+/*#name{
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:-100px;
+
+} 
+*/
+/* Add this in your CSS file or within a <style> tag in your HTML */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.search-container {
+    position: relative;
+    float: right;
+}
+
+#search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+#search-button {
+    padding: 6px 10px;
+    background-color: #007acc;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Add this in your CSS file or within a <style> tag in your HTML */
+/*header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+.menu-toggle {
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.4s;
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+table{
+    padding-top:100px;
+    border-spacing:100px;
+    padding-left:5px;
+    padding-right:5px;
+  }
+  #t1{
+    border:none;
+    width:10%;
+  
+  }
+  #p1{
+    border:none;
+    width:15%;
+  }
+  #f1{
+    border:none;
+    width:15%;
+  }
+
+
+footer{
+    align-items:center;
+    text-align:center;
+    background-color:black;
+    color:white;
+}
+
+@media screen and (max-width:770px){
+    body{
+        justify-content:center;
+        background-position-x:center;
+        align-items:center;
+    }
+    h1{
+        text-align:center;
+        align-items:center;
+        padding-top:200px;
+        font-size:35px;
+    }
+    header{
+        justify-content: center;
+        background-size: cover;
+        width:100%;
+        align-items:center;
+    }
+
+
+}

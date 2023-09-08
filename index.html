@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <title> RENTAL HERE </title>
+    <link rel="stylesheet" href="rental.css">
+    <style>
+        .menu.active {
+            display: block;
+        }
+    </style>   
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 style="font-style:serif">Welcome To Our Rental Page</h1>
+    <table>
+        <tr>
+            <th id="t1"><img src="bike.jpg" alt="BIKE" width="200px" height="300px"></th></tr>
+        <tr>
+            <th id="p1"><img src="car.jpg" alt="CAR" width="200px" height="300px"></th></tr>
+        <tr>
+            <th id="f1"><img src="cycle.jpg" alt="CAR" width="200px" height="300px"></th></tr>
+    </table>
+
+    <script src="rental.js"></script>
+    <footer>
+        <p>@2023. All copyrights reserved</p>
+    </footer>
+</body>
+</html>
